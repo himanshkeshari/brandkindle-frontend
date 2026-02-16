@@ -1,0 +1,118 @@
+/* ===== NAVBAR CONTAINER ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* ===== LOGO ===== */
+.navbar-logo img {
+  height: 45px;
+  cursor: pointer;
+}
+
+/* ===== NAV LINKS ===== */
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #007bff;
+}
+
+/* ===== CTA BUTTON ===== */
+.navbar-cta button {
+  padding: 8px 20px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.navbar-cta button:hover {
+  background: #0056b3;
+}
+
+/* ===== MOBILE MENU ICON (Hidden by Default) ===== */
+.menu-icon {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+================================== */
+
+@media (max-width: 768px) {
+
+  .navbar-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background:tomato;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-cta {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+
+.navbar-links li a:hover {
+  color: #6366f1;
+}
+.navbar-links li a.active {
+  color: #6366f1;
+  font-weight: 600;
+  position: relative;
+}
+
+.navbar-links li a.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #6366f1;
+  bottom: -5px;
+  left: 0;
+}

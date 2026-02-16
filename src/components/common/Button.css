@@ -1,0 +1,32 @@
+.btn {
+  padding: 12px 28px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Primary Button */
+.btn.primary {
+  background: linear-gradient(135deg, #6c63ff, #5a54e6);
+  color: white;
+}
+
+.btn.primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(108, 99, 255, 0.4);
+}
+
+/* Secondary Button */
+.btn.secondary {
+  background: transparent;
+  border: 2px solid #6c63ff;
+  color: #6c63ff;
+}
+
+.btn.secondary:hover {
+  background: #6c63ff;
+  color: white;
+}

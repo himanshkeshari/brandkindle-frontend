@@ -1,0 +1,19 @@
+/* ===== LAYOUT WRAPPER ===== */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ===== MAIN CONTENT AREA ===== */
+.layout-main {
+  flex: 1;   /* pushes footer to bottom */
+  padding: 40px 8%;
+}
+
+/* Optional: smooth background */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8fafc;
+}

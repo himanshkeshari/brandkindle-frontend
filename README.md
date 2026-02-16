@@ -1,16 +1,43 @@
-# React + Vite
+# BrandKindle – Digital Marketing Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Demo: https://brandkindle-frontend.vercel.app  
+💻 GitHub Repository: https://github.com/himanshkeshari/brandkindle-frontend  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
 
-## React Compiler
+BrandKindle is a modern and responsive Digital Marketing Agency website built using React.js and Vite.  
+The project focuses on clean UI design, responsive layouts, and performance optimization.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project demonstrates strong frontend development skills including component-based architecture, responsive design, and deployment workflow.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Modern Gradient UI Design
+- Fully Responsive Layout (Mobile + Tablet + Desktop)
+- Reusable React Components
+- Optimized Production Build
+- Clean Folder Structure
+- Deployed on Vercel
+- Version Controlled with Git & GitHub
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- CSS3
+- JavaScript (ES6+)
+- Git & GitHub
+- Vercel (Deployment)
+
+---
+
+## 📂 Project Structure
+
+
+

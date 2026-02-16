@@ -36,6 +36,27 @@ This project demonstrates strong frontend development skills including component
 - Vercel (Deployment)
 
 ---
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/himanshkeshari/brandkindle-frontend.git
+cd brandkindle-frontend
+npm install
+npm run dev
+
+---
+
+### 3️⃣ Folder Structure (Optional but Powerful)
+
+```md
+## 📂 Folder Structure
+
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ └── App.jsx
+
 
 ## 📂 Project Structure
 
